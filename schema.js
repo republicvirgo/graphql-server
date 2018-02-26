@@ -24,7 +24,7 @@ const SourceType = new GraphQLObjectType({
     name: {
       type: GraphQLString,
       resolve: (data, args) => {
-        return data[0].author
+        return data[0].source.name
       }
     }
   })
@@ -41,7 +41,7 @@ module.exports = new GraphQLSchema({
           id: { type: GraphQLString }
         },
         resolve: (root, args) => {
-          return fetchSource("abc-news").then(response => {
+          return fetchSource(args.id).then(response => {
             return response
           })
         }
