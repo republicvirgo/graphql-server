@@ -1,0 +1,14 @@
+{
+  "name": "graphqlserver",
+  "version": "1.0.0",
+  "description": "learn build a graphql server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "sigidhanafi@gmail.com",
+  "license": "ISC"
+}
