@@ -10,5 +10,9 @@
     "graphql"
   ],
   "author": "sigidhanafi@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-fetch": "^2.0.0"
+  }
 }
